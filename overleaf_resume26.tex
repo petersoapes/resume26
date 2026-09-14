@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in Latex
+% Author : April Peterson
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape April Peterson} \\ \vspace{1pt}
+    \small 763-257-5764 $|$ \href{mailto:x@x.com}{\underline{peterson12april@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/blank}} $|$
+    \href{https://github.com/...}{\underline{github.com/petersoapes}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Wisconsin-Madison}{Madison, WI}
+      {PhD in Laboratory of Genetics}{Jan 2014 -- May 2021}
+    \resumeSubheading
+      {Lawrence University}{Appleton, WI}
+      {Bachelor of Arts in Biology, Minor in Linguistics}{Aug. 2006 -- June 2010}
+  \resumeSubHeadingListEnd
+
+%---------SKILLS-----------------
+%-----------Lab and Data Analysis SKILLS-----------
+\section{Skills}
+ 
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Laboratory}{: Running and Maintaining Equipment, PCR, Animal Husbandry, DNA Extraction} \\
+     \textbf{Data Analysis and Coding}{: R, git, public speaking, R:ggplot} \\
+    }}
+ \end{itemize}
+
+ 
+%-----------EXPERIENCE-----------
+\section{Lab Experience}
+  \resumeSubHeadingListStart
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+      
+    \resumeSubheading
+      {Clinical Laboratory Scientist}{July 2026 -- Present}
+      {Abbott Cancer Diagnostics}{Madison, WI}
+      \resumeItemListStart
+        \resumeItem{Performing highly complex analytical testing}
+        \resumeItem{documentation of quality and maintenance}
+        \resumeItem{reliable attendance, written and verbal communication skills}
+    \resumeItemListEnd
+
+\resumeSubheading
+      {Graduate Research Assistant}{Aug 2013 -- June 2021}
+      {University of Wisconsin-Madison}{Madison, WI}
+      \resumeItemListStart
+        \resumeItem{GPA 3.429 21 graduate course credits. 3 Peer Reviewed Publications}
+        \resumeItem{Characterized recombination rates in 12 strains of house mice.}
+        \resumeItem{Immunohistology and florescent microscopy of meiotic cells.}
+        \resumeItem{Adapting workflows to generate reports for large datasets.}
+        \resumeItem{Data Analysis and visualization using Rstats and R-ggplot.}
+        \resumeItem{Statistical analysis including permutation tests and mixed models.}
+        \resumeItem{Development of image analysis software.}
+        \resumeItem{Animal trapping and species identification though mtDNA sequencing.}
+        \resumeItem{Lead workshops in learning database software.}
+        \resumeItem{Interfacing with IRB for maintaining unique mouse colonies and sampling wild animals.}
+        \resumeItem{Writing reports for grant applications, peer reviewed manuscripts, and regular meeting presentations.}
+        \resumeItem{Mentorship of three undergraduate independent research projects.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Research Technician}{August 2010 -- May 2013}
+      {University of Chicago, IGSB}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Exome library construction of tumor samples using Truseq and custom protocols.}
+        \resumeItem{Characterization of transcription factor expression in breast cancer cell lines using a microwestern approach.}
+        \resumeItem{Characterization of a tumor suppressor gene in AML cell lines.}
+        \resumeItem{Trained visiting scientists and rotation students on lab protocols and equipment.}
+        \resumeItem{Large sample database organization using Excel, perl and R.}
+        \resumeItem{Communicated vendors to evaluate new equipment or reagents or to discuss the customization of product lines to meet user requirements.}
+      \resumeItemListEnd
+
+%\section{}
+%  \resumeSubHeadingListStart
+%    \resumeSubheading
+%    {MSI Auto Sales - Middleton, WI}
+%    {Receptionist and Data Entry}
+%    \resumeItemListStart
+%        \resumeItem{Customer Service, Scheduling appointments.}
+%        \resumeItem{Establishing sales leads, bookkeeping.}
+%      \resumeItemListEnd
+
+
+%\section{Professional Experience}
+%    \resumeSubheading
+%    {subheading}   
+%    \resumeItemListStart
+%        \resumeItem{Customer Service, Scheduling appointments.}
+%        \resumeItem{Establishing sales leads, bookkeeping.}
+%      {MSI Auto Sales - Middleton, WI}
+%      {Receptionist and Data Entry}
+%  \resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section{Projects or Skills}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Lab and Molecular Biology:}}
+          \resumeItemListStart
+            \resumeItem{PCR, Gel Electrophoresis, Microwesterns, Cell culture, transfections and transduction, vector design, plasmid construction, DNA extraction}
+            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+            \resumeItem{Visualized GitHub data to show collaboration}
+            \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------Lab and Data Analysis SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Laboratory}{: Running and Maintaining Equipment, PCR, Animal Husbandry, DNA Extraction} \\
+     \textbf{Data Analysis and Coding}{: R, git, public speaking, R:ggplot} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
